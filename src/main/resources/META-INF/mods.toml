@@ -1,0 +1,26 @@
+
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="ultimateweapons"
+version="1.0.0"
+displayName="Ultimate Weapons"
+description='''
+A collection of six unique swords and pickaxes.
+'''
+
+[[dependencies.ultimateweapons]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.39,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ultimateweapons]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
